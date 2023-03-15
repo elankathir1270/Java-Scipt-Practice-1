@@ -1,0 +1,75 @@
+body{
+    margin:0;
+    
+}
+
+.bg{
+    
+    background: linear-gradient(to left,rgb(186, 116, 116) ,rgb(2, 3, 2));
+    background-size:cover;
+    height: 100vh;
+    color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-size: 1.7em;
+    text-transform: uppercase;
+    text-align: center;
+}
+.innerbg{
+    
+    width: 250px;
+    height: 50vh;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.input{
+    padding: 20px;
+    padding-top: 5px;
+    
+}
+.input .place{
+    width: 100%;
+    background-color: rgb(211, 197, 197);
+    font-size: 1.3em;
+    border-radius:5px; 
+    box-sizing: border-box;
+    padding: 3px 5px;
+    color: rgb(7, 7, 7);
+}
+
+.place:focus{
+    background-color:rgb(125, 116, 116) ;
+}
+
+.submit{
+    
+    padding-top: 5px;
+}
+
+button{
+    font-size: 1.2em;
+    background-color: rgb(211, 197, 197);
+    border-radius:5px; 
+    padding: 3px 3px;
+    border-color:rgb(211, 197, 197);
+
+}
+.btn:focus{
+    background-color:rgb(125, 116, 116) ;
+}
+
+#result{
+    padding-top: 15px;
+    font-size: 1.5em;
+    text-align: center;
+}
